@@ -1,1 +1,1 @@
-# Sentiment_Analysis_of_Financial_News
+# Sentiment Analysis of Financial News
