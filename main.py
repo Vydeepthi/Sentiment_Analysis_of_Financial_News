@@ -1,4 +1,3 @@
-# main.py
 
 import data_collection
 import data_preprocessing
@@ -7,6 +6,7 @@ import model_training
 import model_evaluation
 import deployment
 import monitoring_and_maintenance
+from sklearn.model_selection import train_test_split
 
 def main():
     # Step 1: Collect data

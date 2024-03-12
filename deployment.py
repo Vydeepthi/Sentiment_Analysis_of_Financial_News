@@ -1,5 +1,6 @@
+import joblib
 
-def deploy_model(model):
+def deploy_model(trained_model):
     """Integrates and deploys the trained model for real-time analysis."""
-    # deployment involves saving the model for future use
-    model.save("trained_model.pkl")
+    # Saving the trained model
+    joblib.dump(trained_model, "trained_model.pkl")
